@@ -1,0 +1,12 @@
+@mixin display($display:flex,$jus:center,$ali:center,$direction:row,$gap:0) {
+    display: $display;
+    justify-content:$jus;
+    align-items: $ali;
+    flex-direction:$direction;
+    gap: $gap;
+}
+@mixin list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}

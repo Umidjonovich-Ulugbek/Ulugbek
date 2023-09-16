@@ -17,6 +17,7 @@ body {
           flex-direction: column;
   margin: 0;
   font-family: sans-serif;
+  background-color: rgba(24, 53, 24, 0.8705882353);
 }
 
 img {
