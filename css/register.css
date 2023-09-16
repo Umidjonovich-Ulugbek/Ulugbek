@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgba(24, 53, 24, 0.8705882353);
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero__form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+}
+.hero__title {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+.hero__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+.hero__user-password {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+.hero__user-password::-webkit-input-placeholder {
+  color: #fff;
+}
+.hero__user-password::-moz-placeholder {
+  color: #fff;
+}
+.hero__user-password:-ms-input-placeholder {
+  color: #fff;
+}
+.hero__user-password::-ms-input-placeholder {
+  color: #fff;
+}
+.hero__user-password::placeholder {
+  color: #fff;
+}
+.hero__form-btn {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #fff;
+}/*# sourceMappingURL=register.css.map */
